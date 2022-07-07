@@ -90,7 +90,7 @@ fetch(url)
     authorContent.innerHTML = `-${data["quotes"][randomNumberQuote]["author"]}`
     //Buton Fonksiyonu
     randomButton.addEventListener("click", () => 
-    {let number = Math.floor(Math.    random() * data["quotes"].length) + 1
+    {let number = Math.floor(Math.random() * data["quotes"].length) + 1
     console.log(number)
     quoteContent.innerHTML = `<strong>"</strong>${data["quotes"][number]["quote"]}<strong>"</strong>`
     authorContent.innerHTML = `-${data["quotes"][number]["author"]}`
